@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404 Not Found</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/e11a230b42.js" crossorigin="anonymous"></script>
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            background: rgb(20,20,20);
+            font-family: "Muli", sans-serif;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .error_container{
+            display: flex;
+            align-items: center;
+        }
+
+        .error__icon{
+            text-align: center;
+            font-size: 15rem;
+            display: inline-block;
+            border-right: 5px solid white;
+            padding-right: 50px;
+        }
+
+        .error__icon i{
+            animation: girar 5s infinite;
+        }
+
+        .error_container span{
+            align-items: center;
+            font-size: 5rem;
+            height: inherit;
+            padding-left: 30px;
+        }
+
+        @keyframes girar {
+            0%{
+                transform: scale(1) rotate(0);
+            }
+            40%{
+                transform: scale(1.2) rotate(360deg);
+            }
+        }
+
+      
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="error_container">
+        <div class="error__icon">
+            <i class="fab fa-galactic-republic"></i>
+        </div>
+        <span>404 Not Found</span>
+    </div>
+</body>
+</html>
