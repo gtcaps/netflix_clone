@@ -109,10 +109,27 @@
 
 /* MEDIA QUERIES */
 
-@media only screen and(max-width: 600px){
+@media (max-width: 600px){
 
     .header{
-        display: n;
+        padding-left: 10px ;
+        padding-right: 10px;
+    }
+
+    .register{
+        padding-top: 20px;
+        height: calc(100vh - 150px);
+    }
+
+    .register, .register__container{
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 75px;
     }
 
 }
