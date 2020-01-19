@@ -95,7 +95,7 @@
     background: #f3f3f3;
 }
 
-.footer a{;
+.footer a{
     color: #a6a6a6;
     cursor: pointer;
     font-size: 14px;
@@ -105,4 +105,14 @@
 
 .footer a:hover{
     text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and(max-width: 600px){
+
+    .header{
+        display: n;
+    }
+
 }
